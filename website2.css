@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+}
+
+.page {
+  width:100%;
+}
+
+.logo {
+  background: black;
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100%;
+  padding: 0.45em;
+}
+
+.menu-profil {
+  background: black;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.menu-resume {
+  background: black;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.menu-portofolio {
+  background: black;
+  width: 25%;
+  float: right;
+  text-align: center;
+}
+
+.menu-contact {
+  background: black;
+  width: 25%;
+  float: right;
+  text-align: center;
+}
+
+@media screen and (max-width:768px){
+  .menu {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-profil,
+  .menu-portofolio {
+    clear: left;
+    float: left;
+    width: 50%;
+  }
+ .menu-resume,
+ .menu-contact{
+   clear: right;
+   float: right;
+   width: 50%;
+ }
+}
+/* ------------------------------------------*/
+
+@media screen and (max-width:320px){
+  .menu {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-profil,
+  .menu-portofolio {
+    clear: left;
+    float: left;
+    width: 100%;
+  }
+ .menu-resume,
+ .menu-contact{
+   clear: right;
+   float: right;
+   width: 100%;
+ }
+
+ .title-profil {
+   width: 100%;
+   text-align: center;
+   font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+   font-size: 1.1em;
+   padding-top: 1.7em;
+}
+
+h2 {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  color: #6C6C6C;
+}
+
+}
+/* ------------------------------------------*/
+
+#nav {
+  font-size: 1.1em;
+  margin: 0.2em;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+#nav a:hover {
+  color: #04c9c3;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+
+.title-profil {
+  width: 100%;
+  text-align: center;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 1.1em;
+  margin-top: 3em;
+
+}
+
+h2 {
+  text-decoration: none;
+  font-weight: normal;
+  color: #6C6C6C;
+}
+
+#block-1 {
+  padding-bottom: 35%;
+}
+
+.picture{
+  width: 33.203125%;/* 340px/1024 */
+  float: left;
+  text-align: center;
+}
+
+.picture img {
+  max-width: 100%;
+  text-align: center;
+}
+
+.description{
+  width : 66.796875%;
+  text-align: center;
+  float: right;
+}
+
+.description p {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 1.2em;
+  line-height: 130%;
+  margin: 10%;
+
+}
+
+@media screen and (max-width:768px){
+
+.title-profil {
+  width: 100%;
+  text-align: center;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 1.1em;
+  margin-top: 4.5em;
+}
+
+.picture {
+width: 100%;
+
+  }
+
+.picture img {
+ max-width: 60%;
+}
+
+.description {
+  width: 100%;
+}
+.description p {
+  font-size: 1em;
+  color: white;
+}
+}
+/* ------------------------------------------*/
+
+
+@media screen and (max-width:320px){
+
+.picture img {
+  max-width: 90%
+}
+
+  .description p {
+    font-size: 0.7em;
+
+  }
+
+}
+/* ------------------------------------------*/
+
+
+
+#block-2 {
+  text-align: center;
+}
+
+.square-1 {
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  background: #f9ead3;
+}
+
+.square-1 img{
+height: 60%;
+padding: 10% 10%;
+}
+
+h3{
+  color: white;
+  text-decoration: none;
+
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 100%;
+
+}
+
+.square-2 {
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  background: #cbe3c3;
+}
+
+.square-2 img{
+height: 60%;
+padding: 10% 10%;
+}
+
+.square-3 {
+  width: 25vw;
+  height: 25vw;
+  float: right;
+  background: #eedfdc;
+}
+
+.square-3 img{
+height: 60%;
+padding: 10% 10%;
+}
+
+.square-4 {
+  width: 25vw;
+  height: 25vw;
+  float: right;
+  background: #cae9eb;
+}
+
+.square-4 img{
+height: 60%;
+padding: 10% 10%;
+}
+
+@media screen and (max-width:768px){
+
+
+  .square-1,
+  .square-3 {
+    width: 50vw;
+    height: 50vw;
+    clear: left;
+    float: left;
+    width: 50%;
+  }
+ .square-2,
+ .square-4{
+   width: 50vw;
+   height: 50vw;
+   clear: right;
+   float: right;
+   width: 50%;
+ }
+}
+/* ------------------------------------------*/
+
+@media screen and (max-width:320px){
+
+  .square-1,
+  .square-3 {
+    width: 100vw;
+    height: 100vw;
+    clear: left;
+    float: left;
+    width: 100%;
+  }
+ .square-2,
+ .square-4{
+   width: 100vw;
+   height: 100vw;
+   clear: right;
+   float: right;
+   width: 100%;
+ }
+}
+/* ------------------------------------------*/
+
+/* -------------------------------- FOOTER ---------------------------------*/
+footer{
+  margin-top: 10%;
+}
+
+.contact{
+  background: #2D2F2F;
+  border-top-style: solid;
+  border-top-width: 10px black;
+}
+
+.contact img {
+  background:url(file:///Users/romanepolard/Desktop/Site%20Roro/website/fb%20color.png);
+  width:30px;
+  height:30px;
+}
+
+.contact img:hover {
+  background:url(file:///Users/romanepolard/Desktop/Site%20Roro/website/fb%20color.png);
+  width:30px;
+  height:30px;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 2em;
+
+}
+
+form div + div {
+    margin-top: 0.8em;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    padding-left: 20%;
+
+button {
+    margin-left: .5em;
+}
+
+.contact a {
+  padding-left: 1%;
+
+}
+
+@media screen and (max-width:650px){
+
+label {
+width: 30%;
+}
+
+input, textarea {
+  width: 150px;
+}
+
+}

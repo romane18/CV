@@ -1,0 +1,258 @@
+
+/* -------------------------------- BODY ---------------------------------*/
+body {
+  margin: 0;
+  cursor:url(file:///Users/romanepolard/Desktop/Site%20Roro/website/cat.cur), default;
+}
+
+.page {
+  width:100%;
+}
+
+.logo {
+  background: black;
+  width: 100%;
+  text-align: center;
+
+}
+
+.logo img {
+  max-width: 100%;
+  padding: 0.45em;
+}
+
+.menu-profil {
+  background: black;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.menu-resume {
+  background: black;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.menu-portofolio {
+  background: black;
+  width: 25%;
+  float: right;
+  text-align: center;
+}
+
+.menu-contact {
+  background: black;
+  width: 25%;
+  float: right;
+  text-align: center;
+}
+/* ---------------------------------RESPONSIVE-------------------------------*/
+@media screen and (max-width:768px){
+  .menu {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-profil,
+  .menu-portofolio {
+    clear: left;
+    float: left;
+    width: 50%;
+  }
+ .menu-resume,
+ .menu-contact{
+   clear: right;
+   float: right;
+   width: 50%;
+ }
+}
+/* ---------------------------------RESPONSIVE-------------------------------*/
+
+@media screen and (max-width:320px){
+  .menu {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-profil,
+  .menu-portofolio {
+    clear: left;
+    float: left;
+    width: 100%;
+  }
+ .menu-resume,
+ .menu-contact{
+   clear: right;
+   float: right;
+   width: 100%;
+ }
+}
+/* ---------------------------------RESPONSIVE-------------------------------*/
+
+#nav {
+  font-size: 1.1em;
+  margin: 0.2em;
+}
+
+
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+#nav a:hover {
+  color: #04c9c3;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+
+h1 {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+#trip {
+  width: 1280px;
+}
+
+h2 {
+  text-decoration: none;
+  font-weight: normal;
+  color: #2D2F2F;
+
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-shadow:0 0 3px white;
+}
+
+
+/* SPECIFIC STYLES */
+.write h2 {
+
+  color: #black;
+  font-family: monospace;
+  font-size: 3em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin-top: 27%; /* Gives that scrolling effect as the typing happens */
+  margin-left: 7%;
+  margin-right: 10%;
+  letter-spacing: .1em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+/* ---------------------------------RESPONSIVE-------------------------------*/
+@media screen and (max-width:768px){
+.write h2 {
+    font-size: 2em;
+    margin-left: 15%;
+    margin-top: 40%;
+  }
+}
+@media screen and (max-width:590px){
+.write h2 {
+  display: none;
+  }
+}
+/* ---------------------------------RESPONSIVE-------------------------------*/
+
+/* -------------------------------- FOOTER ---------------------------------*/
+
+.contact{
+  background: #2D2F2F;
+  border-top-style: solid;
+  border-top-width: 10px black;
+}
+
+.contact img {
+  background:url(file:///Users/romanepolard/Desktop/Site%20Roro/website/fb%20color.png);
+  width:30px;
+  height:30px;
+}
+
+.contact img:hover {
+  background:url(file:///Users/romanepolard/Desktop/Site%20Roro/website/fb%20color.png);
+  width:30px;
+  height:30px;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 2em;
+
+}
+
+form div + div {
+    margin-top: 0.8em;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    padding-left: 20%;
+
+button {
+    margin-left: .5em;
+}
+
+.contact a {
+  padding-left: 1%;
+
+}
+
+@media screen and (max-width:650px){
+
+label {
+width: 30%;
+}
+
+input, textarea {
+  width: 150px;
+}
+
+}
